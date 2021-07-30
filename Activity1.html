@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+.myDiv {
+  border : 1px solid black;
+  background-color: lightblue;    
+  text-align: center;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  border : 1px solid black;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  
+}
+.column1 {
+  border : 1px solid black;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100px; 
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.abc{
+   background-color : #7389D6;
+   padding-top : 100px;
+   padding-bottom : 200px;
+   padding-left : 300px;
+   padding-right : 300px;
+ }
+</style>
+</head>
+<body class = "abc">
+<div class="row">
+<div class = "myDiv"; style = "background-color : white";"text-align : center">
+<h3 style = "color : #FF00FF">IPL Final-2020-Match Summary</h3>
+<p style = "color : #FF00FF">Venue:Dubai International Stadium</p>
+<p style = "color : #FF00FF">Toss:Delhi Capitals, Choose Bat</p>
+</div>
+</div>
+</br>
+<div class="row">
+<div class="column" style="background-color:white;">
+<h3 style = "color : #FF00FF"> Team1 : Delhi Capitals</h3>
+<ul>
+<li style = "color : #7389D6">Marcus Stoinis</li>
+<li style = "color : #7389D6">Shikar Dawan</li>
+<li style = "color : #7389D6">Ajinkya Rahane</li>
+<li style = "color : #7389D6">Shreyas Iyer</li>
+<li style = "color : #7389D6">Rishab Pant</li>
+<li style = "color : #7389D6">Shimron Hetmeyer</li>
+<li style = "color : #7389D6">Axar Patel</li>
+<li style = "color : #7389D6">Kogiso Rabada</li>
+<li style = "color : #7389D6">Pravin Dubey</li>
+<li style = "color : #7389D6">Ravichandran Ashwin</li>
+<li style = "color : #7389D6">Anrich Nortje</li>
+</ul>
+</div>
+<div class="column" style="background-color:white;">
+<h3 style = "color : #FF00FF"> Team2 : Mumbai Indians</h3>
+<ul>
+<li style = "color :#7389D6">Rohit Sharma</li>
+<li style = "color : #7389D6">Quinton Decock</li>
+<li style = "color : #7389D6">SuryaKumar Yadav</li>
+<li style = "color : #7389D6">Ishan Kishan</li>
+<li style = "color : #7389D6">Kieron Pollard</li>
+<li style = "color : #7389D6">Hardik Pandya</li>
+<li style = "color : #7389D6">Krunal Pandya</li>
+<li style = "color : #7389D6">Nathan Coulter-Nile</li>
+<li style = "color : #7389D6">Trent Boult</li>
+<li style = "color : #7389D6">Jayant Yadav</li>
+<li style = "color : #7389D6">Jasprit Bumrah</li>
+</ul>
+</div>
+</div>
+</br>
+<div class = "row">
+<div class="myDiv"; style = "background-color : white";"text-align : center";>
+<p style = "color : black";> <span style="font-weight:bold;">Mumbai Indians</span> won by 5 <span style="font-weight:bold;">wickets</span></p>
+</div>
+</div>
+</br>
+<div class="column" style="background-color:white;">
+<p style ="color : #aaa"><span style="font-weight:bold;">Delhi Capitals</span></p>
+
+<p style = "color : #aaa"><span style="font-weight:bold;">Score : 156/7</span></p>
+<p style = "color : #aaa"><span style="font-weight:bold;">Overs : 20</span></p>
+</div>
+<div class="column" style="background-color:white;">
+<p style "color : black"><span style="font-weight:bold;">Mumbai Indians</span></p>
+<p style = "color : black"><span style="font-weight:bold;">Score : 157/5</span></p>
+<p style = "color : black"><span style="font-weight:bold;">Overs : 19.3</span></p>
+</div>
+</body>
+</html>
